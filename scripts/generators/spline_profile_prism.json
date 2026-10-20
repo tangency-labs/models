@@ -1,0 +1,7 @@
+{"description": "step/spline-profile-prism: a closed periodic spline profile through 9 points (an irregular lobed outline, about 80 x 60 mm) extruded 25 mm: 9 B-spline side walls, one per span between fit points, meeting tangentially. Run: solidcraft-cli run scripts/generators/spline_profile_prism.json --out step/spline-profile-prism/spline-profile-prism.step",
+ "commands": [
+  {"command": "sketch.create", "params": {"plane": "XY", "name": "Profile"}},
+  {"command": "sketch.spline.fit_point", "params": {"points": [[40, 0], [30, 22], [8, 18], [-4, 30], [-28, 24], [-40, 2], [-26, -20], [-2, -14], [22, -28]], "periodic": true}},
+  {"command": "sketch.finish", "params": {}},
+  {"command": "solid.extrude", "params": {"sketch": "Profile", "distance": 25, "body_name": "spline-profile-prism"}}
+ ]}
