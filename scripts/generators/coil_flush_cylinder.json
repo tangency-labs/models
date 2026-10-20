@@ -1,0 +1,5 @@
+{"description": "step/coil-flush-cylinder: a square-section coil joined round a cylinder, its ends flush with the cylinder's end faces (cylinder r 15 h 40; coil diameter 30.8, square section 4 inside, pitch 9, height 36, starting 2 mm up so the section spans z 0 to 40). Run: solidcraft-cli run scripts/generators/coil_flush_cylinder.json --out step/coil-flush-cylinder/coil-flush-cylinder.step",
+ "commands": [
+  {"command": "solid.cylinder", "params": {"radius": 15, "height": 40, "body_name": "coil-flush-cylinder"}},
+  {"command": "solid.coil", "params": {"diameter": 30.8, "pitch": 9, "height": 36, "section": "square", "section_size": 4, "section_position": "inside", "base": [0, 0, 2], "operation": "join", "targets": ["coil-flush-cylinder"]}}
+ ]}
