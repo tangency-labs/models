@@ -1,0 +1,1696 @@
+{
+ "description": "step/filleted-boss-grid: a 120 x 120 x 10 mm plate with an 8 x 8 grid of round bosses (radius 4, 6 tall); every boss filleted 1 mm where it meets the plate and 0.5 mm round its top: 128 fillets. Run: solidcraft-cli run scripts/generators/filleted_boss_grid.json --out step/filleted-boss-grid/filleted-boss-grid.step",
+ "commands": [
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 120,
+    "width": 120,
+    "height": 10,
+    "body_name": "filleted-boss-grid"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     11.25,
+     11.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     11.25,
+     24.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     11.25,
+     38.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     11.25,
+     51.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     11.25,
+     65.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     11.25,
+     78.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     11.25,
+     92.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     11.25,
+     105.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     24.75,
+     11.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     24.75,
+     24.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     24.75,
+     38.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     24.75,
+     51.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     24.75,
+     65.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     24.75,
+     78.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     24.75,
+     92.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     24.75,
+     105.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     38.25,
+     11.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     38.25,
+     24.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     38.25,
+     38.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     38.25,
+     51.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     38.25,
+     65.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     38.25,
+     78.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     38.25,
+     92.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     38.25,
+     105.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     51.75,
+     11.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     51.75,
+     24.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     51.75,
+     38.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     51.75,
+     51.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     51.75,
+     65.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     51.75,
+     78.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     51.75,
+     92.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     51.75,
+     105.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     65.25,
+     11.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     65.25,
+     24.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     65.25,
+     38.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     65.25,
+     51.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     65.25,
+     65.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     65.25,
+     78.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     65.25,
+     92.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     65.25,
+     105.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     78.75,
+     11.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     78.75,
+     24.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     78.75,
+     38.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     78.75,
+     51.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     78.75,
+     65.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     78.75,
+     78.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     78.75,
+     92.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     78.75,
+     105.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     92.25,
+     11.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     92.25,
+     24.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     92.25,
+     38.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     92.25,
+     51.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     92.25,
+     65.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     92.25,
+     78.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     92.25,
+     92.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     92.25,
+     105.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     105.75,
+     11.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     105.75,
+     24.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     105.75,
+     38.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     105.75,
+     51.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     105.75,
+     65.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     105.75,
+     78.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     105.75,
+     92.25,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 6,
+    "base": [
+     105.75,
+     105.75,
+     10
+    ],
+    "operation": "join",
+    "targets": [
+     "filleted-boss-grid"
+    ]
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "edges": [
+     [
+      15.25,
+      11.25,
+      10
+     ],
+     [
+      15.25,
+      24.75,
+      10
+     ],
+     [
+      15.25,
+      38.25,
+      10
+     ],
+     [
+      15.25,
+      51.75,
+      10
+     ],
+     [
+      15.25,
+      65.25,
+      10
+     ],
+     [
+      15.25,
+      78.75,
+      10
+     ],
+     [
+      15.25,
+      92.25,
+      10
+     ],
+     [
+      15.25,
+      105.75,
+      10
+     ],
+     [
+      28.75,
+      11.25,
+      10
+     ],
+     [
+      28.75,
+      24.75,
+      10
+     ],
+     [
+      28.75,
+      38.25,
+      10
+     ],
+     [
+      28.75,
+      51.75,
+      10
+     ],
+     [
+      28.75,
+      65.25,
+      10
+     ],
+     [
+      28.75,
+      78.75,
+      10
+     ],
+     [
+      28.75,
+      92.25,
+      10
+     ],
+     [
+      28.75,
+      105.75,
+      10
+     ],
+     [
+      42.25,
+      11.25,
+      10
+     ],
+     [
+      42.25,
+      24.75,
+      10
+     ],
+     [
+      42.25,
+      38.25,
+      10
+     ],
+     [
+      42.25,
+      51.75,
+      10
+     ],
+     [
+      42.25,
+      65.25,
+      10
+     ],
+     [
+      42.25,
+      78.75,
+      10
+     ],
+     [
+      42.25,
+      92.25,
+      10
+     ],
+     [
+      42.25,
+      105.75,
+      10
+     ],
+     [
+      55.75,
+      11.25,
+      10
+     ],
+     [
+      55.75,
+      24.75,
+      10
+     ],
+     [
+      55.75,
+      38.25,
+      10
+     ],
+     [
+      55.75,
+      51.75,
+      10
+     ],
+     [
+      55.75,
+      65.25,
+      10
+     ],
+     [
+      55.75,
+      78.75,
+      10
+     ],
+     [
+      55.75,
+      92.25,
+      10
+     ],
+     [
+      55.75,
+      105.75,
+      10
+     ],
+     [
+      69.25,
+      11.25,
+      10
+     ],
+     [
+      69.25,
+      24.75,
+      10
+     ],
+     [
+      69.25,
+      38.25,
+      10
+     ],
+     [
+      69.25,
+      51.75,
+      10
+     ],
+     [
+      69.25,
+      65.25,
+      10
+     ],
+     [
+      69.25,
+      78.75,
+      10
+     ],
+     [
+      69.25,
+      92.25,
+      10
+     ],
+     [
+      69.25,
+      105.75,
+      10
+     ],
+     [
+      82.75,
+      11.25,
+      10
+     ],
+     [
+      82.75,
+      24.75,
+      10
+     ],
+     [
+      82.75,
+      38.25,
+      10
+     ],
+     [
+      82.75,
+      51.75,
+      10
+     ],
+     [
+      82.75,
+      65.25,
+      10
+     ],
+     [
+      82.75,
+      78.75,
+      10
+     ],
+     [
+      82.75,
+      92.25,
+      10
+     ],
+     [
+      82.75,
+      105.75,
+      10
+     ],
+     [
+      96.25,
+      11.25,
+      10
+     ],
+     [
+      96.25,
+      24.75,
+      10
+     ],
+     [
+      96.25,
+      38.25,
+      10
+     ],
+     [
+      96.25,
+      51.75,
+      10
+     ],
+     [
+      96.25,
+      65.25,
+      10
+     ],
+     [
+      96.25,
+      78.75,
+      10
+     ],
+     [
+      96.25,
+      92.25,
+      10
+     ],
+     [
+      96.25,
+      105.75,
+      10
+     ],
+     [
+      109.75,
+      11.25,
+      10
+     ],
+     [
+      109.75,
+      24.75,
+      10
+     ],
+     [
+      109.75,
+      38.25,
+      10
+     ],
+     [
+      109.75,
+      51.75,
+      10
+     ],
+     [
+      109.75,
+      65.25,
+      10
+     ],
+     [
+      109.75,
+      78.75,
+      10
+     ],
+     [
+      109.75,
+      92.25,
+      10
+     ],
+     [
+      109.75,
+      105.75,
+      10
+     ]
+    ],
+    "radius": 1,
+    "body": "filleted-boss-grid"
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "edges": [
+     [
+      15.25,
+      11.25,
+      16
+     ],
+     [
+      15.25,
+      24.75,
+      16
+     ],
+     [
+      15.25,
+      38.25,
+      16
+     ],
+     [
+      15.25,
+      51.75,
+      16
+     ],
+     [
+      15.25,
+      65.25,
+      16
+     ],
+     [
+      15.25,
+      78.75,
+      16
+     ],
+     [
+      15.25,
+      92.25,
+      16
+     ],
+     [
+      15.25,
+      105.75,
+      16
+     ],
+     [
+      28.75,
+      11.25,
+      16
+     ],
+     [
+      28.75,
+      24.75,
+      16
+     ],
+     [
+      28.75,
+      38.25,
+      16
+     ],
+     [
+      28.75,
+      51.75,
+      16
+     ],
+     [
+      28.75,
+      65.25,
+      16
+     ],
+     [
+      28.75,
+      78.75,
+      16
+     ],
+     [
+      28.75,
+      92.25,
+      16
+     ],
+     [
+      28.75,
+      105.75,
+      16
+     ],
+     [
+      42.25,
+      11.25,
+      16
+     ],
+     [
+      42.25,
+      24.75,
+      16
+     ],
+     [
+      42.25,
+      38.25,
+      16
+     ],
+     [
+      42.25,
+      51.75,
+      16
+     ],
+     [
+      42.25,
+      65.25,
+      16
+     ],
+     [
+      42.25,
+      78.75,
+      16
+     ],
+     [
+      42.25,
+      92.25,
+      16
+     ],
+     [
+      42.25,
+      105.75,
+      16
+     ],
+     [
+      55.75,
+      11.25,
+      16
+     ],
+     [
+      55.75,
+      24.75,
+      16
+     ],
+     [
+      55.75,
+      38.25,
+      16
+     ],
+     [
+      55.75,
+      51.75,
+      16
+     ],
+     [
+      55.75,
+      65.25,
+      16
+     ],
+     [
+      55.75,
+      78.75,
+      16
+     ],
+     [
+      55.75,
+      92.25,
+      16
+     ],
+     [
+      55.75,
+      105.75,
+      16
+     ],
+     [
+      69.25,
+      11.25,
+      16
+     ],
+     [
+      69.25,
+      24.75,
+      16
+     ],
+     [
+      69.25,
+      38.25,
+      16
+     ],
+     [
+      69.25,
+      51.75,
+      16
+     ],
+     [
+      69.25,
+      65.25,
+      16
+     ],
+     [
+      69.25,
+      78.75,
+      16
+     ],
+     [
+      69.25,
+      92.25,
+      16
+     ],
+     [
+      69.25,
+      105.75,
+      16
+     ],
+     [
+      82.75,
+      11.25,
+      16
+     ],
+     [
+      82.75,
+      24.75,
+      16
+     ],
+     [
+      82.75,
+      38.25,
+      16
+     ],
+     [
+      82.75,
+      51.75,
+      16
+     ],
+     [
+      82.75,
+      65.25,
+      16
+     ],
+     [
+      82.75,
+      78.75,
+      16
+     ],
+     [
+      82.75,
+      92.25,
+      16
+     ],
+     [
+      82.75,
+      105.75,
+      16
+     ],
+     [
+      96.25,
+      11.25,
+      16
+     ],
+     [
+      96.25,
+      24.75,
+      16
+     ],
+     [
+      96.25,
+      38.25,
+      16
+     ],
+     [
+      96.25,
+      51.75,
+      16
+     ],
+     [
+      96.25,
+      65.25,
+      16
+     ],
+     [
+      96.25,
+      78.75,
+      16
+     ],
+     [
+      96.25,
+      92.25,
+      16
+     ],
+     [
+      96.25,
+      105.75,
+      16
+     ],
+     [
+      109.75,
+      11.25,
+      16
+     ],
+     [
+      109.75,
+      24.75,
+      16
+     ],
+     [
+      109.75,
+      38.25,
+      16
+     ],
+     [
+      109.75,
+      51.75,
+      16
+     ],
+     [
+      109.75,
+      65.25,
+      16
+     ],
+     [
+      109.75,
+      78.75,
+      16
+     ],
+     [
+      109.75,
+      92.25,
+      16
+     ],
+     [
+      109.75,
+      105.75,
+      16
+     ]
+    ],
+    "radius": 0.5,
+    "body": "filleted-boss-grid"
+   }
+  }
+ ]
+}
